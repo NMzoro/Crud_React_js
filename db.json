@@ -1,0 +1,13 @@
+{
+    "etudiants": [
+        {
+            "id": 1,
+            "fullname": "Mohammed Bouhaddou",
+            "email_adress": "mohamed@gmail.com"
+        },{
+            "id": 2,
+            "fullname": "Oussama Elbakri",
+            "email_adress": "oussama@gmail.com"
+        }
+    ]
+}

@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-export default function Hello() {
+export default function Crud() {
     const [first, setFirst] = useState('');
     const [last, setLast] = useState('');
     const [note, setNote] = useState('');

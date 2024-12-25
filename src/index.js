@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hello from './testComponent/Hello.jsx';
+import Crud from './testComponent/Crud.jsx';
+import Test from './testComponent/Test.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Crud/>
+  {/* <Crud/> */}
+  <Test/>
   </React.StrictMode>
+
+  
 );
 reportWebVitals();

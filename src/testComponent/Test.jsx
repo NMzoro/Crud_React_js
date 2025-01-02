@@ -42,7 +42,7 @@ export default function Test(){
             <td colSpan={4} align="center">Aucun Resultat</td>
         </tr>
         }
-        return etudiantsAfficher.map((etd,index)=>{
+        return etudiantsAfficher.map((etd)=>{
             return <tr key={etd.id}>
                     <td>{etd.id}</td>
                     <td>{etd.fullname}</td>

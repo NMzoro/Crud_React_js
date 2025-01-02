@@ -43,7 +43,7 @@ export default function Test(){
         </tr>
         }
         return etudiantsAfficher.map((etd,index)=>{
-            return <tr key={index}>
+            return <tr key={etd.id}>
                     <td>{etd.id}</td>
                     <td>{etd.fullname}</td>
                     <td>{etd.email_adress}</td>
